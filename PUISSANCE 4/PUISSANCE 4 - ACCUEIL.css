@@ -1,0 +1,282 @@
+body {
+    background-color: rgb(29, 29, 29);
+    margin: 0 auto;
+}
+
+
+
+
+/* LOGO SUPINFO EN A GAUCHE */
+
+#LOGO {
+    
+    width: 100px;
+    height: 100px;
+}
+
+/* FIN */
+
+#logomenu{
+    border-radius: 10px;
+}
+
+
+
+/* CSS Bouton Connexion PC */
+
+
+#BtnConnexion {
+    position: fixed;
+    padding: 15px 40px;
+    margin-top: 30px;
+    right:  20px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(0, 0, 129)
+}
+
+
+
+#BtnConnexion:hover {
+    opacity: 0.5;
+  }
+
+/* FIN */
+
+
+
+
+/* CSS Barre de navigation PC */
+
+.menu {
+    position: fixed;
+    top: 7rem;
+    margin-top: -65px;
+    margin-left: 125px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.menu a:hover {
+    background-color: rgb(0, 0, 129);
+    text-decoration: none;
+}
+
+#btn {
+    display: none;
+    
+}
+
+#topbar label {
+    visibility: hidden;
+    width: 25px;
+    height: 25px;
+}
+
+/* FIN */
+
+
+
+
+/* CSS Barre de navigation MOBILE RENDU INVISIBLE POUR LES ECRANS SUPERIEUR A 650PX DE LARGEUR */
+
+.menumobile {
+    display: none;
+}
+
+/* FIN */
+
+
+
+
+
+/* CSS BARRE DE NAVIGATION PC ET MOBILE */
+
+#btn:checked~.menumobile {
+    display: block;
+}
+
+
+#topbar {
+    
+    display: flex;
+    flex-direction: row;
+    background-color: var(--white);
+}
+
+#topbar>p {
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 550;
+    color: rgb(8, 216, 231);
+    font-family: 'Roboto', sans-serif;
+}
+
+#topbar>img {
+    position: fixed;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+/* FIN */
+
+
+/* Titre PUISSANCE 4 à l'accueil */
+
+#titreaccueil{
+    color: white;
+    margin-top:104px;
+    margin-left:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* FIN */
+
+
+
+/* Texte en dessous du titre à l'accueil */
+
+#textdescriptionaccueil{
+    color: white;
+    margin-left:40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* FIN */*
+
+
+/* Photo du jeu à */
+
+#Jeuxpuissance4png{
+    height:200px;
+    margin-top:0px;
+    margin-left:50px;
+}
+
+/* FIN */
+
+
+
+/* Bouton à l'accueil pour accéder au jeu  */
+
+.Boutonaccesjeu{
+    position: relative;
+    margin-top: -100px;
+    margin-left:230px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Boutonaccesjeu a{
+    display: block;
+    width: 200px;
+    height: 80px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.Boutonaccesjeu a span{
+    position: relative;
+    z-index: 2;
+}
+
+.Boutonaccesjeu a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+}
+
+.Boutonaccesjeu a:hover{
+    color: #fff;
+}
+
+.Boutonaccesjeu a:hover:after{
+    width: 100%;
+}
+
+
+/* FIN  */
+
+
+
+
+/* Bouton à l'accueil pour accéder aux régles */
+
+.Boutonaccesregle{
+    position: relative;
+    margin-top: -84px;
+    margin-left:400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Boutonaccesregle a{
+    display: block;
+    width: 200px;
+    height: 80px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.Boutonaccesregle a span{
+    position: relative;
+    z-index: 2;
+}
+
+.Boutonaccesregle a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #fdcf00;
+    transition: all .35s;
+}
+
+.Boutonaccesregle a:hover{
+    color: #fff;
+}
+
+.Boutonaccesregle a:hover:after{
+    width: 100%;
+}
+
+/* FIN */
